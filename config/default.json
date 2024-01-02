@@ -1,0 +1,25 @@
+{
+    "PID": { "P": 2.5, "I": 0.0035, "D": 6 },
+    "setPoint": 135,
+    "units": "F",
+    "fan": {
+      "reverse": false,
+      "maxSpeed": 80,
+      "minSpeed": 50,
+      "maxStartupSpeed": 100,
+      "onAbove": 50
+    },
+    "servo": {
+      "minPosition": 2,
+      "maxPosition": 86
+    },
+    "lid": {
+      "lidOpenOffset": 5,
+      "lidOpenDuration": 240
+    },
+    "display": {
+      "device": "/dev/fb0",
+      "colorMode": "RGB16_565"
+    }
+  }
+  
